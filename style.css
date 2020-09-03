@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body {
+  background: rgb(238, 231, 231);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.channel-header {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(10, 100, 236);
+  border-radius: 4px;
+}
+
+#logo{
+  transition: 0.7s;
+  border-radius: 20px;
+  position: relative;
+  left: 40px;
+  top: 8px;
+  height: 80px;
+  width: 80px;
+}
+
+#logo:hover {
+  -webkit-box-shadow: 0px 0px 33px 0px rgba(39, 12, 241, 0.945);
+  -moz-box-shadow: 0px 0px 33px 0px rgba(39, 12, 241, 0.945);
+  box-shadow: 0px 0px 33px 0px rgba(39, 12, 241, 0.945);
+  transition: 0.5s;
+}
+
+ul.horizontal {
+  font-family: 'Bree Serif', serif;
+  list-style-type: none;
+  position: absolute;
+  left: 100px;
+  top: -28px;
+  font-size: 40px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 10;
+  
+}
+
+li a {
+  color: rgb(46, 45, 45);
+  transition: 0.4s;
+}
+
+li a:hover {
+  transition: 0.4s;
+  color: beige;
+}
+
+
+#channel-name {
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+  position: absolute;
+  left: 560px;
+  top: -35px;
+  color: rgba(43,43,43,1);
+  transition: 0.7s;
+}
+
+#channel-name:hover {
+  color: rgb(217, 255, 5);
+  transition: 0.7s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.videos-1 {
+  width: 100%;
+  height: 85%;
+  background-color: rgb(10, 236, 168);
+  border-radius: 4px;
+}
+
+.videos-1 p {
+  font-size: 29px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+.videos-1 p a{
+  color: rgb(110, 2, 250);
+  transition: 0.7s;
+}
+
+
+.videos-1 p a:hover{
+  font-size: 33px;
+  color: rgb(255, 20, 20);
+  transition: 0.7s;
+}
+
+iframe {
+  position: relative;
+  top: 10px;
+  left: 400px;
+}
